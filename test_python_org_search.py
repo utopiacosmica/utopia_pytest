@@ -5,6 +5,7 @@ from selenium.webdriver.common.keys import Keys
 driver = webdriver.Chrome('driver_mac/chromedriver')
 driver.maximize_window()
 
+
 def test_python_org_search():
         driver.get("http://www.python.org")
         elem = driver.find_element_by_name("q")
