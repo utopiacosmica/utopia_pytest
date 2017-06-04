@@ -2,7 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 
 
-driver = webdriver.Chrome('driver_mac/chromedriver')
+driver = webdriver.Chrome('driver_windows\chromedriver')
 driver.maximize_window()
 
 
